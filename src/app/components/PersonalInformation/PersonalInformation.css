@@ -1,0 +1,32 @@
+.infoContainer {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.infoContainer>div>p {
+    color: aliceblue;
+    font-family: Ubuntu, sans-serif !important;
+    font-size: min(44px, 8cqw);
+    margin-top: 90px;
+    text-align: center;
+}
+
+
+
+.infoContainer>div>label {
+    color: aliceblue;
+    font-family: Ubuntu, sans-serif !important;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.infoContainer div:nth-child(2){
+    text-align: center;
+}
+
+.infoContainer img {
+    border-radius: 50%;
+}

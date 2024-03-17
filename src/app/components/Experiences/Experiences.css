@@ -1,0 +1,73 @@
+.experienceContainer {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experienceContainer span {
+    color: aliceblue;
+    font-size: 28px;
+    text-align: center;
+    font-family: Ubuntu, sans-serif !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);  
+}
+
+
+.expereinces {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    color: aliceblue;
+    font-family: Ubuntu, sans-serif !important;
+    width: 50vw;
+}
+
+.expereinces>div {
+    margin: 8px;
+    padding: 40px 15px;
+    min-width: 160px;
+    background-color: #333333;
+    text-align: center;
+}
+
+.expereinces>div:hover {
+    background-color: rgb(88, 88, 199);
+    cursor: pointer;
+}
+
+.expereinces>div.active {
+    background-color: rgb(88, 88, 199);
+}
+
+.expereinces>div label {
+    font-size: 36px;
+}
+
+.expereinces>div div {
+    font-size: 16px;
+    color: rgb(181, 189, 196);
+    margin-top: 7px;
+}
+
+
+/* Animation */
+.anim-headline{
+  animation: headline 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes headline{
+  from{width: 0;}
+  to{width: 100%;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}

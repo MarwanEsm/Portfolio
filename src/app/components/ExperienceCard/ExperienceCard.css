@@ -1,0 +1,43 @@
+.experienceCardContainer {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 20px 20px;
+}
+
+.header {
+    color: #333333;
+    font-family: Ubuntu, sans-serif
+}
+
+.header label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.responsibilities {
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.experienceCardContainer button {
+    display: block;
+    margin: auto;
+    font-family: Ubuntu !important;
+    font-weight: bolder;
+    background-color: #333333;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.experienceCardContainer button:hover{
+    background-color:aliceblue;
+    color: #333333;
+}
