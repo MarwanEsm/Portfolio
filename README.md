@@ -19,7 +19,7 @@ This repository contains the source code for a portfolio app built using Next.js
 
 To run the portfolio app locally, follow these steps:
 
-* Clone the Repository: git clone https://github.com/your-username/portfolio-app.git
+* Clone the Repository: git clone https://github.com/MarwanEsm/portfolio-app.git
 * Install Dependencies: cd portfolio-app npm install
 * Run the Development Server: npm run dev
 * Open in Your Browser: Visit http://localhost:3000 to view the app in your browser.
