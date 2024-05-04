@@ -6,7 +6,6 @@ This repository contains the source code for a portfolio app built using Next.js
 
 ### Features ###
 
-* Responsive Design: The app is designed to be responsive and accessible on various devices, including desktops, tablets, and mobile phones.
 * Dynamic Routing: Next.js provides efficient client-side routing, enabling smooth navigation between different sections of the portfolio.
 * Custom Styling: The app uses custom styling with CSS modules or styled-components for a unique and visually appealing design.
 
